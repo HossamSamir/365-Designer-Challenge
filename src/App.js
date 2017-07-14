@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
+import Typing from 'react-typing-animation'
 
 class App extends Component {
   render() {
@@ -10,7 +11,9 @@ class App extends Component {
         <div className='container'>
           <div className='heading'>
             <h1>#<span className='year'>365</span>-Designer-Challenge</h1>
-            <h3>Design a <b>Logo</b> for an <b>Artest</b> !</h3>
+            <Typing>
+              <h3>Get shit done everyday for a whole year...</h3>
+            </Typing>
           </div>
         </div>
       </div>
